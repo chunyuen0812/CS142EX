@@ -1,12 +1,23 @@
-.normal {
+.normal-1 {
     height: 100px;
     width: 100px;
     font-size: 40px;
-    border-top: 1px solid blue;
-    background-color: gray;
+    font-style: Tahoma;
+    text-align: center;
+    border-top: 1px solid #687291;
+    background-color: #dfe1e7;
     margin-top: 5px;
-    position: relative;
-    position: (50%,50%);
+}
+
+.normal-2 {
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    font-style: Tahoma;
+    text-align: center;
+    border-top: 1px solid #687291;
+    background-color: #eeeff2;
+    margin-top: 5px;
 }
 
 .F-Style {
@@ -14,6 +25,15 @@
     height: 100px;
     width: 100px;
     font-size: 40px;
-    background-color: rgb(85,94,126);
+    font-style: Tahoma;
+    background-color: #687291;
     margin-top: 5px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
